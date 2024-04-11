@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&amp;display=swap'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <a id="logo" href="#"> <i class="far fa-star fa-rotate-180"></i><span>Bright</span></a>
+        <div class="register-wrapper">
+            <div class="new-user">Already registered?</div><a class="register" href="#">Log In</a>
+        </div>
+    </header>
+    <main>
+        <div class="hero-wrapper">
+            <image class="hero"
+                src="https://raw.githubusercontent.com/angel-design/ubiquitous-funicular/00e4919fa5a70bb2c38ff727c680009a213bedd0/undraw_new_ideas_jdea.svg"
+                alt="New ideas"></image>
+        </div>
+        <form class="content-wrapper">
+            <div class="welcome">
+                <h1>Welcome!</h1>
+                <div class="subtitle">Enter your details to register</div>
+            </div>
+            <div class="log-in-wrapper">
+                <div class="log-in user">
+                    <input id="firstName" type="text" placeholder="First Name" /><i class="fas fa-user"></i>
+                    <label for="firstName">First Name</label>
+                </div>
+                <div class="log-in user">
+                    <input id="lastName" type="text" placeholder="Last Name" /><i class="fas fa-user"></i>
+                    <label for="lastName">Last Name</label>
+                </div>
+                <div class="log-in user">
+                    <input id="dob" type="date" /><i class="fas fa-calendar-alt"></i>
+                    <label for="dob">Date of Birth</label>
+                </div>
+                <div class="log-in user">
+                    <input id="user" type="text" placeholder="User" /><i class="fas fa-user"></i>
+                    <label for="user">Username</label>
+                </div>
+                <div class="log-in password">
+                    <input id="password" type="password" placeholder="Password" /><i class="fas fa-lock"></i>
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="action">
+                <button class="log-in">Register</button>
+            </div>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
